@@ -1,14 +1,10 @@
-# Character-Count
+# Character Count Utility
 
-Created a code that takes an inputted letter, reads a file and returns how many instances of that letter are in the file. 
+This repository contains a code implementation designed to determine the frequency of a specific letter within a given input or a file. The program is equipped with a dedicated function that employs a for loop to efficiently count the occurrences of the specified letter.
 
-Utilizes a function that counts the instances of the letter using a for loop.
+To facilitate file handling operations, the code leverages the "fstream" library, enabling seamless manipulation of files within the program.
 
-Included fstream to allow the manipulation of files in the code. 
+## Future Objectives
 
-## Future goals 
-
-
-- to create a menu to allow the user to choose if they want to read from a inputted phrase or from the file
-- add a function for word count. 
-
+- Develop a user-friendly menu system that offers options to either read from an inputted phrase or directly from a file.
+- Implement an additional function to perform word count analysis for enhanced utility.
